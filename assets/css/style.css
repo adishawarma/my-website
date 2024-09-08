@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 
 * {
   margin: 0;
@@ -18,7 +22,7 @@ html {
 }
 body {
   background: #f7f7f7;
-  font-family: "Poppins", sans-serif;
+  font-family: "Source Code Pro", sans-serif;
 }
 
 *::selection {
@@ -339,7 +343,7 @@ header .navbar ul li a:hover {
 /* hero section end */
 
 .skills img {
-  height: 5vh;
+  height: 6vh;
   padding: auto;
 }
 
@@ -377,19 +381,19 @@ header .navbar ul li a:hover {
 }
 .about .row .content h3 {
   color: rgb(27, 27, 27);
-  font-size: 2.5rem;
+  font-size: 4.0rem;
 }
 .about .row .content .tag {
-  font-size: 1.4rem;
+  font-size: 2.0rem;
   color: #020133;
   font-weight: 600;
   margin-top: 1rem;
 }
 .about .row .content p {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin-top: 1.5rem;
-  font-family: "Nunito";
-  font-weight: 600;
+  font-family: "Space Mono";
+  font-weight: 400;
   text-transform: none;
 }
 .about .row .content .box-container {
@@ -508,7 +512,7 @@ header .navbar ul li a:hover {
 .skills .container .bar .info span {
   font-size: 2rem;
   font-weight: 500;
-  font-family: "Poppins";
+  font-family: "Space Mono";
   margin-left: 0.5rem;
 }
 /* skills media queries starts*/
